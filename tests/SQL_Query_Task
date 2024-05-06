@@ -1,0 +1,9 @@
+SELECT table1.id, table1.name, table2.age
+
+FROM table1
+
+JOIN table2 ON table1.id = table2.id
+
+WHERE table2.age >= 40
+
+ORDER BY table1.name ASC;
