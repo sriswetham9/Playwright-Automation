@@ -1,6 +1,6 @@
 const { test,firefox } = require('playwright');
 
-(async () => {
+test(async () => {
   const browser = await firefox.launch();
   const context = await browser.newContext();
   const page = await context.newPage();

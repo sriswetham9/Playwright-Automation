@@ -11,7 +11,6 @@ test(async () => {
   const page = await context.newPage();
 
  
-
   try {
 
     // Navigate to the challenge page
